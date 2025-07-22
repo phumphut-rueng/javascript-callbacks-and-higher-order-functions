@@ -4,7 +4,11 @@ const studentScoresRoom2 = [78, 98, 23, 15, 40, 12, 40, 67, 80, 100];
 const studentScoresRoom3 = [67, 80, 100, 15, 12, 40, 67, 80, 100, 67];
 
 function checkGradeOver70(score) {
-  return score > 70;
+      if(score > 70){
+        return true;
+      }else{
+        return false
+      }
 }
 
 function atLeastFive(array, operation) {
